@@ -1,0 +1,1 @@
+# Curso Python 3 - Mundo 01 [[Curso em Vídeo](https://www.cursoemvideo.com/course/python-3-mundo-1/)]
