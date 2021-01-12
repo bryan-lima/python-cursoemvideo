@@ -22,7 +22,7 @@ Curso criado pelo **[Prof. Gustavo Guanabara](https://github.com/gustavoguanabar
 
 - **[Mundo 01](https://www.cursoemvideo.com/course/python-3-mundo-1/)** ✔️
   - Primeiro mundo do curso introduz a linguagem, seus conceitos e ensina alguns recursos básicos.
-- **[Mundo 02](https://www.cursoemvideo.com/course/python-3-mundo-2/)** 🚧
+- **[Mundo 02](https://www.cursoemvideo.com/course/python-3-mundo-2/)** ✔️
   - Segundo mundo do curso explica as estruturas de repetição, conceitos e usabilidades.
 - **[Mundo 03](https://www.cursoemvideo.com/course/python-3-mundo-3/)** 🚧
   - Terceiro mundo do curso explica as estruturas de dados, funções, módulos e tratamento de erros.
