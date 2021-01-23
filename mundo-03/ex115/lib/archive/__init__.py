@@ -27,5 +27,24 @@ def readFile(file):
         print('Erro ao ler o arquivo!')
     else:
         header('PESSOAS CADASTRADAS')
-        print(f.read())
+        for line in f:
+            data = line.split(';')
+            data[1] = data[1].replace('\n', '')
+            print(f'{data[0]:<30}{data[1]:>3} anos')
+    finally:
+        f.close()
 
+
+def register(file, name='Desconhecido', age=0):
+    try:
+        f = open(file, 'at')
+    except:
+        print('Houve um erro na abertura do arquivo!')
+    else:
+        try:
+            f.write(f'{name};{age}\n')
+        except:
+            print('Houve um erro ao gravar dados!')
+        else:
+            print(f'Novo registro de {name} adicionado.')
+            f.close()

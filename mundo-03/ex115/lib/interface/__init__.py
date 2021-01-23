@@ -1,21 +1,13 @@
 colors = {
     'clear': '\033[m',
-    'txtWhiteNormal': '\033[0:30m',
     'txtRedNormal': '\033[0:31m',
     'txtGreenNormal': '\033[0:32m',
     'txtYellowNormal': '\033[0:33m',
     'txtBlueNormal': '\033[0:34m',
-    'txtPurpleNormal': '\033[0:35m',
-    'txtCyanNormal': '\033[0:36m',
-    'txtGrayNormal': '\033[0:37m',
-    'txtWhiteBold': '\033[1:30m',
     'txtRedBold': '\033[1:31m',
     'txtGreenBold': '\033[1:32m',
     'txtYellowBold': '\033[1:33m',
     'txtBlueBold': '\033[1:34m',
-    'txtPurpleBold': '\033[1:35m',
-    'txtCyanBold': '\033[1:36m',
-    'txtGrayBold': '\033[1:37m',
 }
 
 

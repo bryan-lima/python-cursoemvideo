@@ -1,5 +1,3 @@
+José;35
 Bryan;23
-Gleissi;27
-Gustavo;41
-Ana;32
-Marcos;19
+Maria;85
