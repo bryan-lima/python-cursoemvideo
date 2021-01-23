@@ -2,6 +2,7 @@
 # O sistema só vai ter 2 opções: cadastrar uma nova pessoa e listar todas as pessoas cadastradas
 
 from lib.interface import *
+from lib.archive import *
 from time import sleep
 
 colors = {
@@ -24,15 +25,20 @@ colors = {
     'txtGrayBold': '\033[1:37m',
 }
 
+archive = 'cursoemvideo.txt'
+
+if not fileExists(archive):
+    createFile(archive)
+
 while True:
     print()
     opt = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do Sistema'])
     if opt == 1:
         print()
-        header('Opção 1 selecionada')
+        readFile(archive)
     elif opt == 2:
         print()
-        header('Opção 2 selecionada')
+        header('Opção 2')
     elif opt == 3:
         print('\n' + colors["txtRedBold"], end='')
         header('Saindo do sistema... Até logo!')
